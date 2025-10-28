@@ -53,7 +53,7 @@ DB_PORT=5432
 DB_NAME=
 DB_USER=
 DB_PASS=
-
+```
 ## **Instrucciones de Uso**
 
 1.  **Clonar el Repositorio:** `git clone https://github.com/IvanCaceresS/cepet-ia-rag-technical-test.git`
