@@ -1,0 +1,92 @@
+[
+  {
+    "archivo": "docs/dec295_2025.pdf",
+    "titulo": "Decreto Exento N° 295 - Funcionamiento del Consejo Tributario",
+    "fecha": "2025-10-06",
+    "tipo": "Decreto Exento",
+    "emisor": "Ministerio de Hacienda",
+    "categorias": ["Normas Generales", "Tributario", "Administración del Estado"],
+    "temas": ["Consejo Tributario", "Funcionamiento", "Consulta Pública", "Plan de Gestión de Cumplimiento Tributario"]
+  },
+  {
+    "archivo": "docs/dec316_2025.pdf",
+    "titulo": "Decreto Exento N° 316 - Componente variable para Impuesto Específico a Combustibles",
+    "fecha": "2025-10-21",
+    "tipo": "Decreto Exento",
+    "emisor": "Ministerio de Hacienda",
+    "categorias": ["Normas Generales", "Impuestos", "Finanzas Públicas"],
+    "temas": ["Impuesto Específico", "Combustibles", "MEPCO", "Gasolina", "Diésel"]
+  },
+  {
+    "archivo": "docs/decley3_2025.pdf",
+    "titulo": "DFL N° 3 - Destina recursos al financiamiento de cotización para Salud Primaria",
+    "fecha": "2025-08-21",
+    "tipo": "Decreto con Fuerza de Ley (DFL)",
+    "emisor": "Ministerio de Hacienda",
+    "categorias": ["Normas Generales", "Finanzas Públicas", "Salud"],
+    "temas": ["Financiamiento", "Cotizaciones", "Atención Primaria de Salud", "Salud Municipal", "Aporte Mensual Complementario"]
+  },
+  {
+    "archivo": "docs/decley4_2025.pdf",
+    "titulo": "DFL N° 4 - Destina recursos al financiamiento de cotización para Educación",
+    "fecha": "2025-08-21",
+    "tipo": "Decreto con Fuerza de Ley (DFL)",
+    "emisor": "Ministerio de Hacienda",
+    "categorias": ["Normas Generales", "Finanzas Públicas", "Educación"],
+    "temas": ["Financiamiento", "Cotizaciones", "Establecimientos Educacionales", "Subvención Escolar", "Aporte Mensual Complementario"]
+  },
+  {
+    "archivo": "docs/of2071_2025.pdf",
+    "titulo": "Oficio N° 2071 - IVA en servicios prestados por OTEC",
+    "fecha": "2025-10-16",
+    "tipo": "Oficio",
+    "emisor": "Servicio de Impuestos Internos",
+    "categorias": ["Impuestos Indirectos", "Ventas y Servicios", "Tributario"],
+    "temas": ["IVA", "Exención de IVA", "OTEC", "Capacitación", "Servicios de Educación"]
+  },
+  {
+    "archivo": "docs/of2072_2025.pdf",
+    "titulo": "Oficio N° 2072 - Compensación IVA retenido e IVA recargado",
+    "fecha": "2025-10-16",
+    "tipo": "Oficio",
+    "emisor": "Servicio de Impuestos Internos",
+    "categorias": ["Impuestos Indirectos", "Ventas y Servicios", "Tributario"],
+    "temas": ["IVA", "Retención de IVA", "Compensación de IVA", "Factura de Compra", "Formulario 29"]
+  },
+  {
+    "archivo": "docs/reso143_2025.pdf",
+    "titulo": "Resolución Exenta SII Nº 143 - Aprueba Convenio entre Subsecretaría de Ciencia y SII",
+    "fecha": "2025-10-16",
+    "tipo": "Resolución Exenta",
+    "emisor": "Servicio de Impuestos Internos",
+    "categorias": ["Convenios", "Administración del Estado", "Asistencia al Contribuyente"],
+    "temas": ["Intercambio de Información", "Colaboración Interinstitucional", "Subsecretaría de Ciencia", "Protección de Datos", "Webservice"]
+  },
+  {
+    "archivo": "docs/reso144_2025.pdf",
+    "titulo": "Resolución Exenta SII Nº 144 - Autoriza a Falabella eliminar timbre electrónico",
+    "fecha": "2025-10-16",
+    "tipo": "Resolución Exenta",
+    "emisor": "Servicio de Impuestos Internos",
+    "categorias": ["Tributario", "Documentos Electrónicos", "Asistencia al Contribuyente"],
+    "temas": ["Boleta Electrónica", "Timbre Electrónico", "Falabella Retail S.A.", "Impacto Ambiental", "XML"]
+  },
+  {
+    "archivo": "docs/reso145_2025.pdf",
+    "titulo": "Resolución Exenta SII Nº 145 - Regula declaración y pago de IVA por plataformas digitales",
+    "fecha": "2025-10-16",
+    "tipo": "Resolución Exenta",
+    "emisor": "Servicio de Impuestos Internos",
+    "categorias": ["Tributario", "Impuestos Indirectos", "Fiscalización"],
+    "temas": ["IVA", "Plataformas Digitales", "Ventas Remotas", "Comercio Electrónico", "Bienes de Bajo Valor", "Formulario 29"]
+  },
+  {
+    "archivo": "docs/reso146_2025.pdf",
+    "titulo": "Resolución Exenta SII Nº 146 - Habilita entidades para acceso único a Clave Tributaria",
+    "fecha": "2025-10-20",
+    "tipo": "Resolución Exenta",
+    "emisor": "Servicio de Impuestos Internos",
+    "categorias": ["Administración del Estado", "Autenticación Digital", "Asistencia al Contribuyente"],
+    "temas": ["Clave Tributaria", "Acceso Único", "Municipalidad de Providencia", "Municipalidad de Vallenar", "Transformación Digital"]
+  }
+]

@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  # Servicio 1: Base de Datos (Postgres + pgvector)
+  db:
+    image: ankane/pgvector:latest
+    container_name: rag_db
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+    volumes:
+      - ./.docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  # Servicio 2: Aplicación RAG (Python + Streamlit)
+  app:
+    container_name: rag_app
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - NLTK_DATA=/app/nltk_data
+      - TESSDATA_PREFIX=/usr/share/tesseract-ocr/5/tessdata
+    depends_on:
+      - db
+    volumes:
+      - ./docs:/app/docs
+
+volumes:
+  postgres_data:
