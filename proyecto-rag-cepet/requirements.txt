@@ -1,24 +1,26 @@
 # --- IA y LangChain ---
-langchain
-langchain-core
-langchain-openai
-langchain-postgres
-langchain-text-splitters
-langchain-community
-langchain-unstructured
+langchain==0.2.10
+langchain-core==0.2.26
+langchain-openai==0.1.20
+langchain-postgres==0.0.16
+langchain-text-splitters==0.2.2
+langchain-community==0.2.10
+langchain-unstructured==0.1.0
 
-# --- BBDD ---
-psycopg2-binary
-pgvector
-#SQLAlchemy
+# --- BBDD (¡NOTA IMPORTANTE!) ---
+# Se elimina psycopg2-binary. langchain-postgres requiere la v3.
+psycopg[binary]==3.2.1
+psycopg2-binary==2.9.9
+pgvector==0.3.5
 
 # --- Carga de Documentos ---
-unstructured[local-inference]
-pdf2image
-pdfminer.six
+# unstructured es pesado. [local-inference] lo es aún más.
+unstructured[local-inference]==0.15.0
+pdf2image==1.17.0
+pdfminer.six==20240706
 
 # --- Frontend ---
-streamlit
+streamlit==1.36.0
 
 # --- Utilidades ---
-python-dotenv
+python-dotenv==1.0.1

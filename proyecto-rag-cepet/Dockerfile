@@ -12,7 +12,8 @@ RUN apt-get update && \
         libglib2.0-0 \
         poppler-utils \
         tesseract-ocr \
-        tesseract-ocr-spa && \
+        tesseract-ocr-spa \
+        libmagic1 && \
     \
     pip install --upgrade pip && \
     \
